@@ -5,5 +5,12 @@ let pow = (n, x) => {
 	}
 	return sum
 }
+factorial = (n) => {
+	if (n = 0) {
+		return 1
+	}
+	return n * this.factorial(n - 1)
+}
 
 console.log(`googol is 10^100, googol = ${pow(10, 100)}`)
+console.log(`9! = ${factorial(9)}`)
